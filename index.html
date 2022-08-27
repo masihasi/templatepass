@@ -44,64 +44,23 @@
     <div class="content">
       <div class="content-table flex-column">
         <!-------------------------------------------------------------------------------------------->
-        - selector: slider1
-  bullets: false
-  captions: true
-  images:
-    - src: /img/image2.jpg
-      alt: Minimum required attributes
-    - data-src: /img/image2.jpg
-      alt: Use data-src for on-demand loading
-    - data-src: /img/image2.jpg
-      data-src-2x: /img/image2.jpg
-      alt: Use data-src-2x for HiDPI devices
-    - src: /img/image2.jpg
-      alt: Links work too
-      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
-  settings:
-    height: 400
-    initialHeight:
-    maxHeight:
-    interval:
-    transitionDuration:
-    effect:
-    disableNav:
-    keyboardNav:
-    previousNavSelector:
-    nextNavSelector:
-
-- selector: slider2
-  bullets: true
-  captions: true
-  images:
-    - src: /img/image2.jpg
-      title: Balloons!
-      alt: This slider has caption titles
-    - data-src: /img/image2.jpg
-      title: This slider uses the fade effect
-      alt: Instead of the default slide effect
-    - data-src: /img/image2.jpg
-      data-src-2x: /img/image2.jpg
-    - src: /img/image2.jpg
-      title: Last image had no caption!
-      alt: Also, this image has no link
-  settings:
-    height: "'auto'"
-    effect: "'fade'"
-
-- selector: slider3
-  images:
-    - src: /img/image2.jpg
-      alt: image one
-    - src: /img/image2.jpg
-      alt: image two
-    - src: /img/image2.jpg
-      alt: image three
-    - src: /img/image2.jpg
-      alt: image four
-  settings:
-    height: "'auto'"
-    disableNav: true
+       
+        <div id="slider">
+	<img src="img/image2" alt="Minimum required attributes">
+	<img data-src="img/image2" src="" alt="Use data-src for on-demand loading">
+	<img data-src="img/image2" data-src-2x="img/image2" src="" alt="Use data-src-2x for HiDPI devices">
+	<a href="http://example.com"><img data-src="img/image2" src="" alt="Links work too"></a>
+	...
+</div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
