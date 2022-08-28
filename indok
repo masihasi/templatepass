@@ -1,0 +1,530 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Project Title</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head> 
+ 
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">      
+    <div class="banner" style="background: url('img/banner.jpg') no-repeat center; background-size: cover; height: 550px;">
+      <div class="banner-table flex-column" style="background-color: rgba(0, 0, 0, 0.5);">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="no-top-margin">Asr Gooyesh Pardaz</h2>
+            <p class="text">
+              ASR Gooyesh Pardaz is a pioneer knowledge-based enterprise offering a wide variety of products in the field of Artificial Intelligence and Signal Processing.
+	      Here at AGP, a distinguished team of professionals from Sharif University of Technology are hard at work to guarantee quality and perfection. 
+		AGP provides sales consultation, installation and after-sales support for their magnificent customer base. Pioneer in development of speech-based technologies in Persian, AGP offers many products in the field of Speech-to-Text, Text-to-Speech,
+		Search by Voice and Speaker Identification
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">    
+	      
+	     
+	      
+	      
+	      
+	      
+	      
+	    
+	      
+         
+              
+  
+	
+	
+	
+        
+         
+         
+     <!-------------------------------------------------------------------------------------------->
+
+	 <!--Start Intro-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <img class="image min-width: 400px "  src="img/lo2.jpg">
+          </div>
+          <div class="flex-item flex-column">
+            <p class="text text-large">
+              <a target="_blank" href="javascript:void(0)">Author 1</a>, author1 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Author 2</a>, author2 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Author 3</a>, author3 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Laboratory</a><br>
+              <a target="_blank" href="javascript:void(0)">Institute</a><br>
+              <a target="_blank" href="javascript:void(0)">Organization</a><br>
+              <a target="_blank" href="javascript:void(0)">Street Address</a><br>
+              <a target="_blank" href="javascript:void(0)">City, State, Country</a>
+            </p>
+          </div>
+        </div>
+	      
+	      
+	<!--End Text Only-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Buttons-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+           
+		  
+        
+		  
+            <div class="control-group">
+              <button class="custom-button-flat"><img src="img/home.png"></button>	    
+              <button class="custom-button-flat"><img src="img/book.png"></button>
+              <button class="custom-button-flat"><img src="img/user.png"></button>
+              <button class="custom-button-flat"><img src="img/share.png"></button>
+              <a class="custom-button-flat" href="https://github.com/yenchiah/project-website-template" target="_blank">
+                <img src="img/link.png">
+              </a>
+            </div>
+ 
+          </div>
+        </div>
+	      
+	      
+	    
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	       
+	      
+	      
+        
+     
+	      
+ <!-------------------------------------------------------------------------------------------->
+
+	      
+	      
+	      
+	      
+	      
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text add-top-margin">
+              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
+              vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
+              sapien ut libero venenatis faucibus. Nullam quis ante.
+            </p>
+          </div>
+        </div>
+        <!--End Intro-->
+	      
+	      
+ 
+	      
+	       <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Adaptive Image-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>About Asr Gooyesh Pardaz</h2>
+            <hr>
+            <p class="text">
+                    ASR Gooyesh Pardaz Co. (AGP), as the first and the only Iranian company specialized in speech technology, 
+		    was established in 2002 to develop speech processing systems by a team of experts from Sharif University of Technology,
+		    with years of experience in the field of language processing. As the leading pioneer in speech processing technology for Persian language,
+		    AGP has successfully developed various applications and solutions for speech processing and recognition.
+                    Our company has developed continuous/isolated speech recognition engines in Persian and English to expand various productions
+		    and solutions such as voice dictation system, speech-enabled telephony systems, keyword spotting, voice commands, speaker recognition,
+		    and text-to-speech. AGP, as the leading provider in speech-based systems for Persian,
+		    has developed various products mostly as the first of its kind and as exclusive product of AGP.   
+            </p>
+            <a class="image adaptive-image" style="background-image: url('img/image1.jpg'); min-height: 500px;" href="img/dummay-img-long.png" target="_blank"></a>
+        
+		  
+          </div>
+        </div>
+        <!--End Text with Adaptive Image-->
+	      
+	      
+	      
+	  <!-------------------------------------------------------------------------------------------->
+
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+	 
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+      
+	      
+	      
+	      
+	      
+	      
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Images and Image buttons-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>Designated AGP products:</h2>
+            <hr>
+            <p class="text">
+		    
+	<ul>
+ <li>Nevisa: The first Persian speech dictation system.</li>
+ <li> Niusha: The first intelligent speech-based Interactive Voice Response system.</li>      
+<li> Ariana: Persian text to speech system with natural voice </li>
+<li>Shenasa: Speaker recognition (identification/verification) system</li>
+<li>Jooya: A system for word search in speech signal (keyword spotting)</li>
+<li>Poosha: A system for hiding information in images (steganography)</li>
+<li>Padida: A system for detecting steganography in images</li>
+<li>Parsia: Speech to speech translation (Persian to English/Arabic)</li>
+<li>NevisYar: The first intelligent Persian typing system</li>
+<li>Kara: Voice command recognition</li>
+	
+		
+
+Today, the company has an integrated group of professional and experienced staff with successful history of research in product development.
+In addition to offering numerous products in the fields of Artificial Intelligence (AI), Persian and English speech, and image processing,
+we are able to carry out customized projects, provide effective consultations, and offer valuable services in various areas.
+	  
+	 </p>  
+          </div>
+        </div>
+        
+	      
+        <!--End Text with Images and Image buttons-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text around Image-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>Apprenticeship</h2>
+            <hr>
+            <p class="text">
+              <img class="image image-wrap-text max-width-300" src="img/meeting.jpg">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+              dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+              amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+              aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
+              voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+              pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+              deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+              similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
+              rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+              impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis.
+            </p>
+          </div>
+        </div>
+        <!--End Text around Image-->
+	      
+        <!-------------------------------------------------------------------------------------------->
+	 <!-------------------------------------------------------------------------------------------->
+        <!-------------------------------------------------------------------------------------------->
+      
+	      
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start List of Projects-->
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+            <h2>List of Projects</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-430  max-height-280 " src="img/backg.jpeg">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">PASS(Persian Audio Source Separation)</a><br>
+              This project aims to build a tool for audio speech separation in persian. These task is to separate
+	      multiple sources of audio from a file in which all of them can simultaneously make sounds.
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-430  max-height-270 " src="img/eliza1.jpeg">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">persian-eliza</a><br>
+              This early natural language processing program had been written in the mid-1960s at the MIT Artificial Intelligence
+	      Laboratory by Joseph Weizenbaum. It supposedly had been created to demonstrate how superficial human to computer
+	      communications was at that time. But, when it was put on personal computers, humans found it quite engaging.
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-430  max-height-270"  src="img/gensiyat.jpg">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">Identifying the age and gender of the speaker from the sound</a><br>
+              The purpose of this project is to teach a model for detecting the age and gender of the speaker from audio.
+            </p>
+          </div>
+        </div>
+	   
+	  <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-430  max-height-270"  src="img/huggingface.JPG">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">SynTranFa (Syntactic Transformation in Farsi)</a><br>
+               Syntactic Transformed Version of Farsi QA datasets to make fluent responses from questions and short answers.
+            </p>
+          </div>
+        </div>  
+	      
+	      
+	   <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img  class="image max-width-430  max-height-270"  src="img/visual.png">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">PersianAVSR (Persian Audio Visual Speech Recognition)</a><br>
+              This project aims to recognize speech from audio processing subsets from audio and image data
+	      (image processing and video processing).
+            </p>
+          </div>
+        </div>
+ 	  
+	  
+	  <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-430  max-height-270"  src="img/text.png">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">TTS−VCAided</a><br>
+              This project is defined in the field of audio processing, which is located in the special subtask (Text-to-Speech).
+              The basic idea of this project is to use speaker voice change models to produce sound from audio.
+            </p>
+          </div>
+        </div>
+ 	  
+	  
+	 
+	      
+	      
+	      
+        <!--End List of Projects-->	
+	  
+ 
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	 
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Masonry-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>Our Featured Products</h2>
+            <hr>
+            <p class="text">
+              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+              augue.
+            </p>
+          </div>
+        </div>
+        <div class="masonry add-top-margin-small add-bottom-margin-small">
+	   <figure>
+            <img src="img/asr11.jpg">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/services/" target="_blank">ASR Gooyesh-Pardaz</a></div>
+            <figcaption>Speech recognition on embedded systems (cell phones, DSP, etc.)</figcaption>  
+          </figure>
+          <figure>
+            <img src="img/req.jpg">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/product/ariana-service/" target="_blank">ariana-service</a></div>
+            <figcaption>System Requirements.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/asr3.JPG ">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/services/" target="_blank">ASR Gooyesh-Pardaz</a></div>
+            <figcaption>Speech Quality Enhancement!!!</figcaption>
+          </figure>
+          <figure>
+            <img src="img/asr7.jpg">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/product/ariana-service/z" target="_blank">ariana-service</a></div>
+            <figcaption>Text to Speech in Telephony Systems!</figcaption>
+          </figure>
+          <figure>
+            <img src="img/asr2.JPG">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/services/" target="_blank">ASR Gooyesh-Pardaz</a></div>
+            <figcaption>Educational Multimedia Systems</figcaption>
+          </figure>
+          <figure>
+	   <img  class="image max-width-430  max-height-600"  src="img/asr5.JPG">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/product/ariana-service/" target="_blank">ariana-service</a></div>
+            <figcaption>Easy Practice</figcaption>
+          </figure>
+          <figure>
+            <img src="img/asr8.jpg">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/product/ariana-service/" target="_blank">ariana-service</a></div>
+            <figcaption>Text to Speech in Information Services!!</figcaption>
+          </figure>
+          <figure>
+            <img src=" img/asr6.JPG">
+            <div>Credit:  <a href="http://asr-gooyesh.com/en/product/nevisa-legal/" target="_blank">nevisa-legal</a></div>
+            <figcaption>Nevisa Speech Dictation (Voice to Text, Legal Edition).</figcaption>
+          </figure>
+          <figure>
+            <img src="img/asr4.JPG">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/product/ariana-service/" target="_blank">ariana-service</a></div>
+            <figcaption>Ariana Module: Text to Speech Service.</figcaption>
+          </figure>
+          <figure>
+            <img src="img/asr1.JPG">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/services/" target="_blank">ASR Gooyesh-Pardaz</a></div>
+            <figcaption>Natural Language Processing (NLP).</figcaption>
+          </figure>
+          <figure>
+            <img src="img/save.jpg">
+            <div>Credit: <a href="http://asr-gooyesh.com/en/product/ariana-service/" target="_blank">ariana-service</a></div>
+            <figcaption>Credit-based Usage.</figcaption>
+          </figure>
+        </div>
+	      
+	      
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+           
+            </p>
+          </div>
+        </div>
+        <!--End Masonry-->
+       
+        
+	      
+	      
+	      
+	 
+	      
+	      
+	      
+		  
+	  
+	  
+	      
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Credits-->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic add-top-margin-large">
+              Credits: <span class="highlight-text">Organization One</span>: Author One and Author Two / <span class="highlight-text">Organization Two</span>: Author Three and Author Four
+            </p>
+          </div>
+        </div>
+        <!--End Credits-->
+        <!-------------------------------------------------------------------------------------------->
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2>Asr Gooyesh Pardaz</h2>
+            <p class="text add-bottom-margin-large">
+   ASR Gooyesh-Pardaz is the first and most active Iranian company in the field of artificial intelligence and signal processing which has
+   started its activities in 2003. The company was established by a team of professionals from the Sharif University of Technology and has 
+   developed several products of speech processing and recognition which have been novel in Persian language area.
+		    
+		    
+		    <div class="flex-row-space-between">
+  
+          <div class="flex-item flex-column">
+            <div class="control-group">
+              <a href="javascript:void(0)" target="_blank" class="custom-image-button">
+                <img src="img/app-store-badge.png" width="150">
+              </a>
+              <a href="javascript:void(0)" target="_blank" class="custom-image-button">
+                <img src="img/google-play-badge.png" width="150">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+           
+       
+          </div>
+        </div>
+        <!--End Text with Buttons-->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
