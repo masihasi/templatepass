@@ -22,34 +22,41 @@
 </head>
 
 	
-    
-	
-<body>
-<div class="menu-container"></div>
-  <div class="content-container">
-    <div class="content">
-      <div class="content-table flex-column">
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-         
-          </div>
-        </div>
-    
-    
-    
-            <!--Start Credits-->
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <p class="text text-small text-italic add-top-margin-large">
-              Credits: <span class="highlight-text">Organization One</span>: Author One and Author Two / <span class="highlight-text">Organization Two</span>: Author Three and Author Four
-            </p>
-          </div>
-        </div>
-        <!--End Credits-->
-        <!-------------------------------------------------------------------------------------------->
-      </div>
-    </div>
-  </div>
+ 
+     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript">
+       function initialize() {
+         var myLatlng = new google.maps.LatLng(29.935711, 52.887702);
+         var mapOptions = {
+           zoom: 15,
+           center: myLatlng,
+           mapTypeId: google.maps.MapTypeId.ROADMAP
+         }
+          
+         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+          
+         var contentString = '<div style="direction: rtl; text-align: right;font-family: Tahoma;">' +
+                                     '<h4>Marvdasht , Takhte Jamshid</h4>' +
+                                      '<h5>Takhte Jamshid</h5>' +
+                                      '</div>';
+          
+         var infowindow = new google.maps.InfoWindow({
+           content: contentString
+         });
+          
+         var marker = new google.maps.Marker({
+           position: myLatlng,
+           map: map,
+           title: 'Takhte Jamshid'
+         });
+          
+         infowindow.open(map, marker);
+         google.maps.event.addListener(marker, 'click', function() {
+           infowindow.open(map, marker);
+         });
+       }
+    </script>
+ <body onload="initialize()">
+    <div id="map-canvas"></div>
 </body>
-
 </html>
