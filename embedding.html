@@ -20,63 +20,61 @@
   <script src="js/widgets.js"></script>
   <script src="js/util.js"></script>
   <script src="js/custom.js"></script>
- 
-    
-    
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script type="text/javascript"></script>
-       function initialize() {
-         var myLatlng = new google.maps.LatLng(35.703780, 51.351714);
-         var mapOptions = {
-           zoom: 15,
-           center: myLatlng,
-           mapTypeId: google.maps.MapTypeId.ROADMAP
-         }
-          
-         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-          
-         var contentString = '<div style="direction: rtl; text-align: right;font-family: Tahoma;">' +
-                                     '<h4>ASR Gooyesh Pardaz </h4>' +
-                                      '<h5> Tehran Province, Tehran, Unit 10, No. 2، Boroomand, Iran  </h5>' +
-                                      '</div>';
-          
-         var infowindow = new google.maps.InfoWindow({
-           content: contentString
-         });
-          
-         var marker = new google.maps.Marker({
-           position: myLatlng,
-           map: map,
-           title: 'Takhte Jamshid'
-         });
-          
-         infowindow.open(map, marker);
-         google.maps.event.addListener(marker, 'click', function() {
-           infowindow.open(map, marker);
-         });
-       }
- 
-  
-    <style type="text/css">
-      #map-canvas{
-        width: 700px;
-        height: 500px;
-        margin: 0 auto;
-      }
-    </style>
-  
-  
+ <style>
+    .menu-widget {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
 </head>
+
+<body>
+<div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+         
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+
+        
+        
+        <!-------------------------------------------------------------------------------------------->
+       
+        
+        <!-------------------------------------------------------------------------------------------->
+        
+        
+        <!-------------------------------------------------------------------------------------------->
+ 
+        <!-------------------------------------------------------------------------------------------->
+        
+        
+         <!-------------------------------------------------------------------------------------------->
     
-    
-    
-    
-<body onload="initialize()">
-    <div id="map-canvas"></div>
-    
-    
-    
-         <!--Start Credits-->
+        
+        
+         <!-------------------------------------------------------------------------------------------->
+       
+        
+        
+        
+        
+          
+          
+          
+        
+        
+         
+        <!-------------------------------------------------------------------------------------------->
+ 
+        
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Credits-->
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
             <p class="text text-small text-italic add-top-margin-large">
@@ -85,7 +83,10 @@
           </div>
         </div>
         <!--End Credits-->
-    
+        <!-------------------------------------------------------------------------------------------->
+      </div>
+    </div>
+  </div>
 </body>
- 
+
 </html>
